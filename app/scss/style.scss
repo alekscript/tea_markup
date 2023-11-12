@@ -1,0 +1,53 @@
+@import "reset";
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,400;1,300&family=Open+Sans:ital,wght@0,300;0,400;0,600;1,300&display=swap');
+
+html{
+    box-sizing: border-box;
+}
+*,
+*::after,
+*::before{
+    box-sizing: inherit;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+ul{
+    list-style: none;
+}
+.container {
+    max-width: 1240px;
+    margin:0 auto;
+    padding: 0 20px;
+}
+
+.header__inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 140px;
+}
+
+.logo{
+    margin-bottom: 35px;
+}
+
+.menu{
+    &__list{
+        display: flex;
+        align-items: center;
+        gap: 0 65px;
+    }
+}
+
+.user-actions{
+    display: flex;
+    align-items: center;
+    gap: 0 20px;
+    &__item--search{
+        margin-left: 80px;
+    }
+}
