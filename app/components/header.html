@@ -1,62 +1,108 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <link rel="stylesheet" href="css/style.min.css">
-</head>
-<body>
- 
-<header>
-  <div class="container">
-      <div class="header__inner">
-        <a  class="logo" alt="logo">
-          <img src="images/logo.svg" alt="logo">
-        </a>
-      <nav class="menu">
-        <ul class="menu__list">
-          <li class="menu__item">
-            <a class="menu__item-link" href="#" >Black</a>
-          </li>
-          <li class="menu__item">
-            <a class="menu__item-link" href="#" >Green</a>
-          </li>
-          <li class="menu__item">
-            <a class="menu__item-link" href="#" >White</a>
-          </li>
-          <li class="menu__item">
-            <a class="menu__item-link" href="#" >Oolong</a>
-          </li>
-          <li class="menu__item">
-            <a class="menu__item-link" href="#" >Pu-erh</a>
-          </li>
-        </ul>
-      </nav>
-      <ul class="user-actions">
-        <li class="user-actions__item">
-          <a class="user-actions__link" href="#">
-            <img src="images/cart.svg" alt="cart">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TealuxE</title>
+    <link rel="stylesheet" href="css/style.min.css" />
+  </head>
+  <body>
+    <div class="menu--close"></div>
+    <header>
+      <div class="container">
+        <div class="header__inner">
+          <a class="logo" alt="logo">
+            <img class="logo__img" src="images/logo.svg" alt="logo" />
           </a>
-        </li>
-        <li class="user-actions__item">
-          <a class="user-actions__link" href="#">
-            <img src="images/user.svg" alt="user">
-          </a>
-        </li>
-        <li class="user-actions__item user-actions__item--search">
-          <a href="#" class="user-actions__link">
-            <img src="images/search.svg" alt="search">
-          </a>
-        </li>
-        <!-- <search class="search">
+          <nav class="menu">
+            <!-- menu__button -->
+            <button class="menu__btn">
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+            </button>
+            <!-- menu__button -->
+            <!-- menu__list -->
+            <ul class="menu__list">
+              <li class="menu__close">
+                <button class="menu__close-btn"><img src="images/close.svg" alt="close"></button>
+              </li>
+              <li class="menu__item">
+                <a class="menu__item-link" href="#">Black</a>
+              </li>
+              <li class="menu__item">
+                <a class="menu__item-link" href="#">Green</a>
+              </li>
+              <li class="menu__item">
+                <a class="menu__item-link" href="#">White</a>
+              </li>
+              <li class="menu__item">
+                <a class="menu__item-link" href="#">Oolong</a>
+              </li>
+              <li class="menu__item">
+                <a class="menu__item-link" href="#">Pu-erh</a>
+              </li>
+              <li class="mobile-nav">
+                <ul class="mobile-menu">
+                  <li class="mobile-menu__item">
+                    <a href="" class="mobile-menu__link"> Contact Us </a>
+                  </li>
+                  <li class="mobile-menu__item">
+                    <a href="" class="mobile-menu__link"> Our Blog </a>
+                  </li>
+                  <li class="mobile-menu__item">
+                    <a href="" class="mobile-menu__link">
+                      Shipping and Delivery
+                    </a>
+                  </li>
+                </ul>
+                <ul class="mobile-actions">
+                  <li class="mobile-actions__item">
+                    <a class="mobile-actions__link" href="#">
+                      <img src="images/cart.svg" alt="cart" />
+                    </a>
+                  </li>
+                  <li class="mobile-actions__item">
+                    <a class="mobile-actions__link" href="#">
+                      <img src="images/user.svg" alt="user" />
+                    </a>
+                  </li>
+                  <li class="mobile-actions__item">
+                    <a href="#" class="mobile-actions__link">
+                      <img src="images/search.svg" alt="search" />
+                    </a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </nav>
+          <ul class="user-actions">
+            <li class="user-actions__item">
+              <a class="user-actions__link" href="#">
+                <img src="images/cart.svg" alt="cart" />
+              </a>
+            </li>
+            <li class="user-actions__item">
+              <a class="user-actions__link" href="#">
+                <img src="images/user.svg" alt="user" />
+              </a>
+            </li>
+            <li class="user-actions__item user-actions__item--search">
+              <a href="#" class="user-actions__link">
+                <img src="images/search.svg" alt="search" />
+              </a>
+            </li>
+            <!-- <search class="search">
           <form action="" class="search__form">
             <input type="text" class="search__input">
             <button type="submit"></button>
           </form>
         </search> -->
-      </ul>
-    </div>
-  </div>
-</header>
+          </ul>
+        </div>
+      </div>
+    </header>
+  </body>
+</html>
