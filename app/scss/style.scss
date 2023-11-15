@@ -23,6 +23,7 @@ body{
     font-weight: 300;
     line-height: 1.5;
     font-family: 'Open Sans', sans-serif;
+    background-color: #fff;
 }
 
 a{
@@ -40,6 +41,18 @@ ul{
     padding: 0 20px;
     @media (max-width: 680px){
         padding: 0 10px;
+    }
+}
+
+.title{
+    font-family: 'Cormorant', sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+    @media(max-width:480px){
+        font-size: 24px;
     }
 }
 
@@ -169,6 +182,9 @@ ul{
         }
         @media(max-width:480px){
             max-width: 360px;
+        }
+        @media(max-width:360px){
+            max-width: 100%;
         }
     }
     &__item{
@@ -302,9 +318,55 @@ ul{
     @media(max-width:360px){
         max-width: 340px;
         margin-top: 70px;
-        margin-bottom: 80px;
+        margin-bottom: 60px;
     }
 }
+
+.assortment{
+    margin-bottom: 150px;
+    @media(max-width:1000px){
+        margin-bottom: 120px;
+    }
+    @media(max-width:480px){
+        margin-bottom: 60px;
+    }
+    &__list{
+        margin-top: 60px;
+        display: flex;
+        text-align: center;
+        justify-content: space-between;
+        gap: 0 40px;
+        flex-wrap: no-wrap;
+        @media(max-width:768px){
+        
+            flex-wrap: wrap;
+            justify-content: center;
+            margin-top: 40px;
+        }
+        @media(max-width:480px){
+            margin-top: 30px;
+            gap: 0;
+        }
+    }
+    &__img{
+        max-width: 208px;
+        max-height: 208px;
+        width: 100%;
+        @media(max-width:360px){
+            max-width: 135px;
+            max-height: 135px;
+        }
+    }
+    &__name{
+        margin-top: 10px;
+        font-family: 'Cormorant',sans-serif;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+}
+
 
 @media (max-width: 1000px){
 
